@@ -31,11 +31,11 @@ py -m venv venv
 ```
 * Заходим в изориованную среду
 ```
-./venv/Scripts/activate
+.\venv\Scripts\activate
 ```
 * Устанавливаем все необхдимые зависимости
 ```
-pip install -r requirements.txt
+pip install -r .\requirements.txt
 ```
 * Запуск сервиса (Желательно после создания БД)
 ```
