@@ -5,7 +5,8 @@ from sqlalchemy.orm import Session
 from fastapi_pagination import Page
 from fastapi_pagination.ext.sqlalchemy import paginate
 
-from .. import schemas, models, database
+from .. import schemas, models
+from core import database
 
 router = APIRouter(
     prefix='/user',

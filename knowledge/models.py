@@ -1,5 +1,7 @@
+from enum import unique
+
 from sqlalchemy import Column, Integer, String, DateTime
-from .database import Base
+from core.database import Base
 import datetime
 
 
